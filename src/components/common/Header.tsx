@@ -37,6 +37,18 @@ const Header = () => {
             Chapter-3
           </Link>
         </li>
+        <li>
+          <Link
+            className={
+              pathname.includes('/chapter-4')
+                ? 'text-blue-600'
+                : 'text-[hsla(0,0%,63%)]'
+            }
+            href='/chapter-4'
+          >
+            Chapter-4
+          </Link>
+        </li>
       </ul>
     </nav>
   );
